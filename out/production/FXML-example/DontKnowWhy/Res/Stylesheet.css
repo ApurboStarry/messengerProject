@@ -1,0 +1,67 @@
+.button {
+	-fx-background-color: #f15a22; -fx-text-fill: #0c2340;
+}
+
+.button:hover{
+	-fx-background-color: #f36f3f; -fx-text-fill: #0c2340;
+}
+
+.label {
+	-fx-text-fill: #f15a22;
+}
+
+.list-view:disabled {
+	-fx-opacity: 1.0; -fx-disabled-opacity: 1.0;
+}
+
+.list-cell {
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 4px ;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0px, 2px ;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent ;
+}
+
+#serverMessage{
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 2px ;
+    -fx-background-color: #fdff79;
+    -fx-background-insets: 0px, 0px ;
+}
+
+#sentMessage{
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 2px ;
+    -fx-background-color: #00ce48;
+    -fx-background-insets: 0px, 0px ;
+}
+
+#receivedMessage{
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 2px ;
+    -fx-background-color: #e5e5ea;
+    -fx-background-insets: 0px, 0px ;
+}
+
+#errorMessage{
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 2px ;
+    -fx-background-color: #ff6569;
+    -fx-background-insets: 0px, 0px ;
+}
+
+#botMessage{
+	-fx-border-radius: 4 4 4 4;
+    -fx-background-radius: 4 4 4 4;
+    -fx-padding: 2px ;
+    -fx-background-color: #00aaff;
+    -fx-background-insets: 0px, 0px ;
+}
